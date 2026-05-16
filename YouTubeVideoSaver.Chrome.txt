@@ -1,0 +1,48 @@
+# Privacy Policy for YouTube Video Saver
+
+**Last Updated:** May 16, 2026
+
+Your privacy is critically important to us. This Privacy Policy explains how **YouTube Video Saver** (the "Extension") handles information when you use our software.
+
+### 1. Information Collection and Use
+
+YouTube Video Saver is designed to help you locally log and manage your YouTube browsing activity.
+
+* **What We Collect:** When you navigate YouTube, the Extension parses public video metadata from the webpage, including the YouTube video identifier (`videoId`), video title, channel name, video duration, and a timestamp of when it was saved.
+* **Purpose:** This data is captured solely to compile your personal history log and display it cleanly on your local history dashboard page (`history.html`).
+
+### 2. Data Storage and Local Processing
+
+We believe in absolute data ownership.
+
+* **100% Local Storage:** All captured data, video history, blacklist preferences, and extension settings are stored strictly on your local device using the secure `chrome.storage.local` API.
+* **No Cloud / Remote Servers:** The Extension **does not** transmit, sync, upload, or share any of your data, browsing habits, or history records to external cloud servers, remote databases, or third-party entities.
+
+### 3. Permissions Justification
+
+To fulfill its single purpose, the Extension requires the following permissions:
+
+* **`storage`**: Used to save your video log items and layout configurations locally on your machine.
+* **`tabs`**: Used to safely launch your local history control panel screen in a new browser tab when clicking the toolbar icon.
+* **`*://www.youtube.com/*`**: Allows the extension to run content scripts to read open public video parameters exclusively while you are browsing YouTube.
+
+### 4. Third-Party Disclosures and Analytics
+
+* **No Tracking:** We do not use third-party analytics hooks, telemetry toolkits, or advertising SDKs.
+* **No Data Selling:** We do not sell, trade, or rent user data to any third party under any circumstances. Your data never leaves your browser context.
+
+### 5. Data Control and Deletion
+
+You maintain complete control over your history data. You can erase your data at any time directly through the Extension's interface by:
+
+* Deleting individual video entries.
+* Clearing your entire history collection using the "Blacklist All" or trash management buttons.
+* Uninstalling the extension, which automatically prompts Chrome to wipe all local data caches associated with it.
+
+### 6. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated modification date.
+
+### 7. Contact Us
+
+If you have any questions or feedback regarding this privacy policy or the practices of the Extension, please contact us via our developer support channel on the Chrome Web Store page.
