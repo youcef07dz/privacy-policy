@@ -1,0 +1,13 @@
+# Privacy Policy: Lite Embed Player for YouTube™
+
+## 1. Data Collection & Transmission
+The "Lite Embed Player for YouTube™" extension does not collect, track, store, or transmit any personal information, browsing history, or user diagnostics. 
+
+## 2. Process Flow
+All data processing happens purely client-side:
+- The extension parses the URL query parameter locally inside your active browser window when you click the action button.
+- The extracted video identifier is securely appended to a clean redirection URL destination on GitHub Pages.
+- No network requests are made to third-party telemetry systems or analytics servers.
+
+## 3. Contact
+For code transparency or questions, open an issue on the developer's repository.
