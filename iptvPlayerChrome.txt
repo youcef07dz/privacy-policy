@@ -1,0 +1,38 @@
+Privacy Policy for IPTV Player
+Last Updated: May 18, 2026
+
+Your privacy is critically important to us. This Privacy Policy explains how IPTV Player ("the Extension") collects, uses, processes, and protects your information when you use our browser extension.
+
+1. Data Collection and Usage
+IPTV Player is engineered with a local-first architecture. We believe in absolute user privacy, which means:
+
+No Personal Data Collection: The Extension does not collect, track, or transmit any personally identifiable information (PII), such as your name, email address, IP address, or browsing history.
+
+No Telemetry or Analytics: We do not use third-party analytics tools or trackers. We do not monitor how long you watch, what channels you select, or how frequently you use the Extension.
+
+2. Local Storage and Playlists
+To provide its functionality, the Extension stores user configurations locally within your browser:
+
+M3U Playlists and Links: Any IPTV playlist URLs you input or .m3u/.m3u8 files you upload are stored directly on your device using the secure chrome.storage.local API.
+
+Channel Logos: Images and channel logo streams are cached locally on your machine using the browser's native Cache API (iptv-logos-v1) to speed up subsequent load times.
+
+Data Control: This data never leaves your device and is never uploaded to our servers. You can permanently wipe all stored playlists and cached logos at any time by removing the playlists via the user interface or by uninstalling the Extension.
+
+3. Network Traffic and Permissions
+The Extension requests specific permissions to function correctly inside your browser. Here is how they are used:
+
+storage: Used solely to save your custom playlist configurations locally so they persist when you restart your browser.
+
+host_permissions (<all_urls>): Your M3U playlists contain streaming links hosted across a vast, unpredictable number of third-party domains. The Extension utilizes a background service worker (background.js) to fetch these playlist files and stream fragments. This local proxy mechanism is required to resolve relative playback URLs and bypass Cross-Origin Resource Sharing (CORS) security headers that would otherwise block video streams inside your browser tab.
+
+Direct Streaming: All stream data travels directly from your IPTV provider’s server to your local video player. No intermediate third-party servers are used to route, log, or proxy your streaming media.
+
+4. Third-Party Links and Services
+The Extension allows you to load third-party IPTV streams. Please note that when you play a stream, you are connecting directly to your chosen IPTV provider's servers. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party streaming services or playlist providers. We encourage you to review the privacy policies of your IPTV provider.
+
+5. Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. Any changes will be reflected by updating the "Last Updated" date at the top of this page. Your continued use of the Extension after changes are posted constitutes your acceptance of the revised policy.
+
+6. Contact Us
+If you have any questions or feedback regarding this Privacy Policy or the security of the Extension, please contact us through the support options listed on our Chrome Web Store page.
