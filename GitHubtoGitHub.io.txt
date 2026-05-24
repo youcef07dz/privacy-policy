@@ -1,0 +1,10 @@
+### Privacy Policy: GitHub to GitHub.io
+
+**Last Updated:** May 24, 2026
+
+This extension is designed for transparency and user privacy.
+
+* **What data we collect:** We do not collect, store, or share any personal data, browsing history, or user information.
+* **How we use permissions:** We use the `activeTab` permission solely to read the URL of the GitHub repository page you are currently viewing. This allows the extension to perform a single, user-initiated redirect to the corresponding GitHub Pages URL.
+* **Your Control:** The extension only runs when you manually click the icon. It has no background access to your data and does not track your activity across other websites.
+* **Third Parties:** We do not share information with any third-party services.
