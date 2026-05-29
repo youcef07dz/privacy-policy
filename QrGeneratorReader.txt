@@ -1,0 +1,30 @@
+# Privacy Policy: QR Reader Generator
+date : 05/29/2026
+
+### 1. Overview
+
+This extension is designed to provide a dedicated tool for scanning and generating QR codes. We are committed to user privacy and operate under a "local-first" principle, meaning your data remains within your browser environment.
+
+### 2. Data Collection and Usage
+
+* **No Data Transmission:** This extension does not collect, track, store, or transmit any user data, browsing history, or personal information to external servers.
+
+* **Temporary Session Handling:** We utilize `chrome.storage.session` solely to facilitate communication between the context menu and the popup interface. This data is strictly transient, held in-memory, and automatically cleared when the browser session ends.
+
+* **Purpose Limitation:** Information processed by the extension—such as URLs or QR image data—is used only to fulfill the user's explicit request to scan or generate a code.
+
+### 3. Permissions Justification
+
+* **activeTab:** Required to perform QR scanning on the specific page the user is currently viewing and to retrieve the page URL for QR generation.
+
+* **contextMenus:** Enables users to trigger scanning or generation functions via right-click shortcuts for improved workflow efficiency.
+
+* **storage:** Used exclusively for temporary, in-memory session data transfer to bridge context menu actions with the extension's popup window.
+
+### 4. User Control
+
+As the extension does not persist data to disk, users maintain full control over their information. Upon removing the extension, no associated data or traces remain on the user's device.
+
+### 5. Updates
+
+We reserve the right to update this policy if technical implementations change. Continued use of the extension constitutes acceptance of these terms.
