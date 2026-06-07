@@ -1,0 +1,70 @@
+# Privacy Policy for Recommendation Blocker
+
+**Last Updated:** 07 June 2026
+
+## Overview
+
+Recommendation Blocker is designed to help users customize their YouTube browsing experience by hiding videos from selected channels and filtering videos containing specified keywords.
+
+Your privacy is important. This extension is designed to operate entirely within your browser and does not collect, transmit, or sell personal information.
+
+## Information We Collect
+
+Recommendation Blocker does **not collect, store, transmit, or share any personal information**.
+
+The extension does not:
+
+* Collect names, email addresses, or account information.
+* Track browsing activity outside of its filtering functionality.
+* Collect financial or payment information.
+* Collect health, location, or other sensitive data.
+* Send user data to external servers.
+
+## Data Stored Locally
+
+The extension stores the following information locally in your browser using Chrome Storage:
+
+* User-defined blocked channel names.
+* User-defined blocked keywords.
+* Extension preferences and settings.
+
+This data remains on your device and is not transmitted elsewhere.
+
+## How the Extension Uses Permissions
+
+### Storage
+
+Used to save your filtering settings and blocked lists locally.
+
+### YouTube Access
+
+The extension accesses YouTube pages solely to identify videos and apply the filtering rules you have configured.
+
+## Data Sharing
+
+Recommendation Blocker:
+
+* Does not sell user data.
+* Does not share user data with third parties.
+* Does not transfer user data to external services.
+* Does not use user data for advertising purposes.
+
+## Third-Party Services
+
+Recommendation Blocker does not use third-party analytics, tracking services, advertising networks, or remote servers.
+
+## Security
+
+Because all extension data is stored locally within your browser, no user information is transmitted over the internet by the extension.
+
+## Children's Privacy
+
+Recommendation Blocker does not knowingly collect information from children or any users.
+
+## Changes to This Privacy Policy
+
+This Privacy Policy may be updated when the extension's functionality changes. Any updates will be reflected by revising the "Last Updated" date above.
+
+## Contact
+
+For questions regarding this Privacy Policy, please contact the extension developer through the Chrome Web Store listing.
