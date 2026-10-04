@@ -1,0 +1,33 @@
+Privacy Policy for YouTube Hide Controls (YTHC)
+Effective Date: October 2026
+
+Overview
+YouTube Hide Controls . is committed to protecting user privacy. This Privacy Policy outlines our data handling practices for the YouTube Hide Controls Chrome Extension.
+
+1. Information Collection and Usage
+YouTube Hide Controls does not collect, store, track, transmit, or sell any personal data, identifiable user information, browsing history, or user activity. The extension operates 100% locally within your web browser.
+
+2. Local Data Storage
+The extension uses Chrome’s local storage API (chrome.storage.local) strictly to save your UI preferences (such as whether control hiding is currently enabled or disabled). This data:
+
+Is stored exclusively on your local device.
+Is never uploaded to external servers, cloud storage, or third-party services.
+Is automatically deleted if you uninstall the extension.
+
+3. Extension Permissions
+YouTube Hide Controls requests only the minimal permissions required to function properly:
+
+scripting & *://*[.youtube.com/](https://.youtube.com/)*: Used solely to dynamically inject CSS styles into YouTube pages to hide or reveal video player controls on demand.
+
+storage: Used solely to save user setting preferences locally.
+
+4. Third-Party Services & Analytics
+We do not use any third-party tracking scripts, advertising networks, telemetry, or analytics software. Your web browsing activity remains completely private.
+
+5. Changes to This Privacy Policy
+We may update this Privacy Policy periodically. Any updates will be reflected on this page with a revised effective date.
+
+6. Contact Us
+If you have any questions or feedback regarding this Privacy Policy, please contact us at:
+
+Email: youssef.blac+YTHC@gmail.com
