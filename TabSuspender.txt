@@ -1,0 +1,33 @@
+Privacy Policy for Tab Suspender
+Last Updated: October 5, 2026
+
+Tab Suspender is committed to protecting your privacy. This Privacy Policy explains how our Chrome extension handles information when you use it.
+
+1. Information Collection and Use
+Tab Suspender does not collect, store, transmit, or sell any personal data.
+
+All functionality operates entirely locally within your browser:
+
+Tab Data & Web Activity: The extension accesses tab information (such as tab IDs, titles, and URLs) strictly on your local device to manage tab states and suspend inactive tabs. None of this data is recorded or sent to external servers.
+
+Settings & Preferences: Your configuration settings (such as whitelist domains and suspension timers) are stored locally on your machine using Chrome’s local storage API (chrome.storage.local).
+
+2. Permissions Used
+To perform its core functions, Tab Suspender requires the following browser permissions:
+
+tabs / Access to Tab URLs: Needed to detect inactive tabs, read tab titles/URLs so they can be restored later, and manage suspension states.
+
+storage: Needed to save your local settings and whitelisted websites.
+
+alarms: Needed to trigger periodic idle checks based on your chosen suspension time limit.
+
+3. Data Sharing and Third Parties
+Because we do not collect or store any user data, we do not share, sell, or transfer any data to third parties, advertising networks, or analytics services.
+
+4. Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.
+
+5. Contact Us
+If you have any questions or suggestions regarding this Privacy Policy, please contact us at:
+
+Email: youssef.blac+tabsuspender@gmail.com
